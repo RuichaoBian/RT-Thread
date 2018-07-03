@@ -4,5 +4,5 @@
 	nuvoton_nuc240-EINI-USB-副本
 	nuvoton_nuc240-EINI-USB-副本(2)
 	
-	已删除厂库中的上面的文件。
+	已删除仓库中的上面的文件。
 	git rm -r --cached 文件夹名    删除文件的命令
