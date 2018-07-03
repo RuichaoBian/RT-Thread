@@ -1,5 +1,0 @@
--c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include
--IC:\Keil_v5\ARM\RV31\INC
--IC:\Keil_v5\ARM\CMSIS\Include
--D__UVISION_VERSION="521"
--o .\objects\timer_1.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\timer_1.crf --depend .\objects\timer_1.d "..\..\src\timer.c"

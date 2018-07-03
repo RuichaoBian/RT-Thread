@@ -1,1531 +1,0 @@
-Dependencies for Project 'project', Target 'project': (DO NOT MODIFY !)
-F (.\APP\app.c)(0x599E72E4)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\app.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\app.crf --depend .\objects\app.d)
-I (..\..\include\rthw.h)(0x59427654)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
-I (.\Drivers\board.h)(0x599159D2)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\NUC230_240.h)(0x594CA63A)
-I (.\Libraries\CMSIS\Include\core_cm0.h)(0x55E95586)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x55E95586)
-I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x55E95586)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\system_NUC230_240.h)(0x55E95586)
-I (.\Libraries\StdDriver\inc\SYS.h)(0x593E5D3E)
-I (.\Libraries\StdDriver\inc\ADC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CAN.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\FMC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\GPIO.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2C.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PWM.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SPI.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CRC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\TIMER.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WWDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\RTC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\UART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2S.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\USBD.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PDMA.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SCUART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PS2.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CLK.h)(0x599535A2)
-I (.\Libraries\StdDriver\inc\ACMP.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\EBI.h)(0x55E95588)
-I (..\..\components\drivers\include\drivers\usb_device.h)(0x5992A530)
-I (..\..\components\drivers\include\drivers\usb_common.h)(0x59427649)
-I (..\..\include\components.h)(0x59427654)
-I (..\..\components\finsh\finsh.h)(0x59427651)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x574E3E26)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
-I (..\..\components\finsh\shell.h)(0x59427651)
-I (.\Drivers\led.h)(0x598C1CEA)
-I (.\Libraries\StdDriver\inc\hid_mousekeyboard.h)(0x59940C10)
-F (.\APP\startup.c)(0x59953959)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\startup.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\startup.crf --depend .\objects\startup.d)
-I (..\..\include\rthw.h)(0x59427654)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\NUC230_240.h)(0x594CA63A)
-I (.\Libraries\CMSIS\Include\core_cm0.h)(0x55E95586)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x55E95586)
-I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x55E95586)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\system_NUC230_240.h)(0x55E95586)
-I (.\Libraries\StdDriver\inc\SYS.h)(0x593E5D3E)
-I (.\Libraries\StdDriver\inc\ADC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CAN.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\FMC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\GPIO.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2C.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PWM.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SPI.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CRC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\TIMER.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WWDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\RTC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\UART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2S.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\USBD.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PDMA.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SCUART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PS2.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CLK.h)(0x599535A2)
-I (.\Libraries\StdDriver\inc\ACMP.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\EBI.h)(0x55E95588)
-I (.\Drivers\board.h)(0x599159D2)
-I (..\..\components\drivers\include\drivers\usb_device.h)(0x5992A530)
-I (..\..\components\drivers\include\drivers\usb_common.h)(0x59427649)
-I (..\..\include\components.h)(0x59427654)
-I (..\..\components\finsh\finsh.h)(0x59427651)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x574E3E26)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
-I (..\..\components\finsh\shell.h)(0x59427651)
-I (.\Libraries\StdDriver\inc\hid_mousekeyboard.h)(0x59940C10)
-F (.\APP\USB_test.c)(0x598E88B5)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\usb_test.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\usb_test.crf --depend .\objects\usb_test.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\NUC230_240.h)(0x594CA63A)
-I (.\Libraries\CMSIS\Include\core_cm0.h)(0x55E95586)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x55E95586)
-I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x55E95586)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\system_NUC230_240.h)(0x55E95586)
-I (.\Libraries\StdDriver\inc\SYS.h)(0x593E5D3E)
-I (.\Libraries\StdDriver\inc\ADC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CAN.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\FMC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\GPIO.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2C.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PWM.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SPI.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CRC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\TIMER.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WWDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\RTC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\UART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2S.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\USBD.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PDMA.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SCUART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PS2.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CLK.h)(0x599535A2)
-I (.\Libraries\StdDriver\inc\ACMP.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\EBI.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\hid_mousekeyboard.h)(0x59940C10)
-F (.\Drivers\board.c)(0x599396AA)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\board.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\board.crf --depend .\objects\board.d)
-I (..\..\include\rthw.h)(0x59427654)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-I (Drivers\board.h)(0x599159D2)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\NUC230_240.h)(0x594CA63A)
-I (.\Libraries\CMSIS\Include\core_cm0.h)(0x55E95586)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x55E95586)
-I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x55E95586)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\system_NUC230_240.h)(0x55E95586)
-I (.\Libraries\StdDriver\inc\SYS.h)(0x593E5D3E)
-I (.\Libraries\StdDriver\inc\ADC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CAN.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\FMC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\GPIO.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2C.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PWM.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SPI.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CRC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\TIMER.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WWDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\RTC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\UART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2S.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\USBD.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PDMA.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SCUART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PS2.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CLK.h)(0x599535A2)
-I (.\Libraries\StdDriver\inc\ACMP.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\EBI.h)(0x55E95588)
-I (..\..\components\drivers\include\drivers\usb_device.h)(0x5992A530)
-I (..\..\components\drivers\include\drivers\usb_common.h)(0x59427649)
-I (Drivers\usart.h)(0x598C0E18)
-I (..\..\include\components.h)(0x59427654)
-I (..\..\components\finsh\finsh.h)(0x59427651)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x574E3E26)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
-I (..\..\components\finsh\shell.h)(0x59427651)
-F (.\Drivers\usart.c)(0x5996AF08)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\usart.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\NUC230_240.h)(0x594CA63A)
-I (.\Libraries\CMSIS\Include\core_cm0.h)(0x55E95586)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x55E95586)
-I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x55E95586)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\system_NUC230_240.h)(0x55E95586)
-I (.\Libraries\StdDriver\inc\SYS.h)(0x593E5D3E)
-I (.\Libraries\StdDriver\inc\ADC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CAN.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\FMC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\GPIO.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2C.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PWM.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SPI.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CRC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\TIMER.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WWDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\RTC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\UART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2S.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\USBD.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PDMA.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SCUART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PS2.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CLK.h)(0x599535A2)
-I (.\Libraries\StdDriver\inc\ACMP.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\EBI.h)(0x55E95588)
-I (..\..\components\drivers\include\rtdevice.h)(0x59427649)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-I (..\..\components\drivers\include\drivers/usb_device.h)(0x5992A530)
-I (..\..\components\drivers\include\drivers/usb_common.h)(0x59427649)
-I (..\..\components\drivers\include\drivers/usb_host.h)(0x59427649)
-I (..\..\components\drivers\include\drivers/serial.h)(0x59427649)
-I (Drivers\usart.h)(0x598C0E18)
-I (..\..\include\rthw.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
-F (.\Drivers\led.c)(0x598C1CDA)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\led.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\led.crf --depend .\objects\led.d)
-I (Drivers\led.h)(0x598C1CEA)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\NUC230_240.h)(0x594CA63A)
-I (.\Libraries\CMSIS\Include\core_cm0.h)(0x55E95586)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x55E95586)
-I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x55E95586)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\system_NUC230_240.h)(0x55E95586)
-I (.\Libraries\StdDriver\inc\SYS.h)(0x593E5D3E)
-I (.\Libraries\StdDriver\inc\ADC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CAN.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\FMC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\GPIO.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2C.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PWM.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SPI.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CRC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\TIMER.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WWDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\RTC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\UART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2S.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\USBD.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PDMA.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SCUART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PS2.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CLK.h)(0x599535A2)
-I (.\Libraries\StdDriver\inc\ACMP.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\EBI.h)(0x55E95588)
-I (..\..\include\rthw.h)(0x59427654)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-I (..\..\include\components.h)(0x59427654)
-I (..\..\components\finsh\finsh.h)(0x59427651)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x574E3E26)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
-I (..\..\components\finsh\shell.h)(0x59427651)
-F (.\Drivers\descriptors.c)(0x5994F6CA)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\descriptors.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\descriptors.crf --depend .\objects\descriptors.d)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\NUC230_240.h)(0x594CA63A)
-I (.\Libraries\CMSIS\Include\core_cm0.h)(0x55E95586)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x55E95586)
-I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x55E95586)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\system_NUC230_240.h)(0x55E95586)
-I (.\Libraries\StdDriver\inc\SYS.h)(0x593E5D3E)
-I (.\Libraries\StdDriver\inc\ADC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CAN.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\FMC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\GPIO.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2C.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PWM.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SPI.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CRC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\TIMER.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WWDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\RTC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\UART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2S.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\USBD.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PDMA.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SCUART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PS2.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CLK.h)(0x599535A2)
-I (.\Libraries\StdDriver\inc\ACMP.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\EBI.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\hid_mousekeyboard.h)(0x59940C10)
-F (.\Libraries\Device\Nuvoton\NUC230_240\Source\ARM\startup_NUC230_240.s)(0x55E95586)(--cpu Cortex-M0 -g --16 --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 521"--list .\listings\startup_nuc230_240.lst --xref -o .\objects\startup_nuc230_240.o --depend .\objects\startup_nuc230_240.d)
-F (.\Libraries\Device\Nuvoton\NUC230_240\Source\system_NUC230_240.c)(0x55E95586)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\system_nuc230_240.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\system_nuc230_240.crf --depend .\objects\system_nuc230_240.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\NUC230_240.h)(0x594CA63A)
-I (.\Libraries\CMSIS\Include\core_cm0.h)(0x55E95586)
-I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x55E95586)
-I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x55E95586)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\system_NUC230_240.h)(0x55E95586)
-I (.\Libraries\StdDriver\inc\SYS.h)(0x593E5D3E)
-I (.\Libraries\StdDriver\inc\ADC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CAN.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\FMC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\GPIO.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2C.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PWM.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SPI.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CRC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\TIMER.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WWDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\RTC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\UART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2S.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\USBD.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PDMA.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SCUART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PS2.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CLK.h)(0x599535A2)
-I (.\Libraries\StdDriver\inc\ACMP.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\EBI.h)(0x55E95588)
-F (.\Libraries\StdDriver\src\acmp.c)(0x55E95588)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\acmp.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\acmp.crf --depend .\objects\acmp.d)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\NUC230_240.h)(0x594CA63A)
-I (.\Libraries\CMSIS\Include\core_cm0.h)(0x55E95586)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x55E95586)
-I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x55E95586)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\system_NUC230_240.h)(0x55E95586)
-I (.\Libraries\StdDriver\inc\SYS.h)(0x593E5D3E)
-I (.\Libraries\StdDriver\inc\ADC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CAN.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\FMC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\GPIO.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2C.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PWM.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SPI.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CRC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\TIMER.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WWDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\RTC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\UART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2S.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\USBD.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PDMA.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SCUART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PS2.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CLK.h)(0x599535A2)
-I (.\Libraries\StdDriver\inc\ACMP.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\EBI.h)(0x55E95588)
-F (.\Libraries\StdDriver\src\adc.c)(0x55E95588)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\adc.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\NUC230_240.h)(0x594CA63A)
-I (.\Libraries\CMSIS\Include\core_cm0.h)(0x55E95586)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x55E95586)
-I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x55E95586)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\system_NUC230_240.h)(0x55E95586)
-I (.\Libraries\StdDriver\inc\SYS.h)(0x593E5D3E)
-I (.\Libraries\StdDriver\inc\ADC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CAN.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\FMC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\GPIO.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2C.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PWM.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SPI.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CRC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\TIMER.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WWDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\RTC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\UART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2S.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\USBD.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PDMA.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SCUART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PS2.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CLK.h)(0x599535A2)
-I (.\Libraries\StdDriver\inc\ACMP.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\EBI.h)(0x55E95588)
-F (.\Libraries\StdDriver\src\can.c)(0x55E95588)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\can.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\can.crf --depend .\objects\can.d)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\NUC230_240.h)(0x594CA63A)
-I (.\Libraries\CMSIS\Include\core_cm0.h)(0x55E95586)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x55E95586)
-I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x55E95586)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\system_NUC230_240.h)(0x55E95586)
-I (.\Libraries\StdDriver\inc\SYS.h)(0x593E5D3E)
-I (.\Libraries\StdDriver\inc\ADC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CAN.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\FMC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\GPIO.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2C.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PWM.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SPI.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CRC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\TIMER.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WWDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\RTC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\UART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2S.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\USBD.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PDMA.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SCUART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PS2.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CLK.h)(0x599535A2)
-I (.\Libraries\StdDriver\inc\ACMP.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\EBI.h)(0x55E95588)
-F (.\Libraries\StdDriver\src\clk.c)(0x55E95588)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\clk.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\clk.crf --depend .\objects\clk.d)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\NUC230_240.h)(0x594CA63A)
-I (.\Libraries\CMSIS\Include\core_cm0.h)(0x55E95586)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x55E95586)
-I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x55E95586)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\system_NUC230_240.h)(0x55E95586)
-I (.\Libraries\StdDriver\inc\SYS.h)(0x593E5D3E)
-I (.\Libraries\StdDriver\inc\ADC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CAN.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\FMC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\GPIO.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2C.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PWM.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SPI.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CRC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\TIMER.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WWDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\RTC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\UART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2S.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\USBD.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PDMA.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SCUART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PS2.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CLK.h)(0x599535A2)
-I (.\Libraries\StdDriver\inc\ACMP.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\EBI.h)(0x55E95588)
-F (.\Libraries\StdDriver\src\crc.c)(0x55E95588)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\crc.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\crc.crf --depend .\objects\crc.d)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\NUC230_240.h)(0x594CA63A)
-I (.\Libraries\CMSIS\Include\core_cm0.h)(0x55E95586)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x55E95586)
-I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x55E95586)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\system_NUC230_240.h)(0x55E95586)
-I (.\Libraries\StdDriver\inc\SYS.h)(0x593E5D3E)
-I (.\Libraries\StdDriver\inc\ADC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CAN.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\FMC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\GPIO.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2C.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PWM.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SPI.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CRC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\TIMER.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WWDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\RTC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\UART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2S.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\USBD.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PDMA.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SCUART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PS2.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CLK.h)(0x599535A2)
-I (.\Libraries\StdDriver\inc\ACMP.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\EBI.h)(0x55E95588)
-F (.\Libraries\StdDriver\src\ebi.c)(0x55E95588)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\ebi.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\ebi.crf --depend .\objects\ebi.d)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\NUC230_240.h)(0x594CA63A)
-I (.\Libraries\CMSIS\Include\core_cm0.h)(0x55E95586)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x55E95586)
-I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x55E95586)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\system_NUC230_240.h)(0x55E95586)
-I (.\Libraries\StdDriver\inc\SYS.h)(0x593E5D3E)
-I (.\Libraries\StdDriver\inc\ADC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CAN.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\FMC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\GPIO.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2C.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PWM.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SPI.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CRC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\TIMER.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WWDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\RTC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\UART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2S.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\USBD.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PDMA.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SCUART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PS2.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CLK.h)(0x599535A2)
-I (.\Libraries\StdDriver\inc\ACMP.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\EBI.h)(0x55E95588)
-F (.\Libraries\StdDriver\src\fmc.c)(0x55E95588)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\fmc.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\fmc.crf --depend .\objects\fmc.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\NUC230_240.h)(0x594CA63A)
-I (.\Libraries\CMSIS\Include\core_cm0.h)(0x55E95586)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x55E95586)
-I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x55E95586)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\system_NUC230_240.h)(0x55E95586)
-I (.\Libraries\StdDriver\inc\SYS.h)(0x593E5D3E)
-I (.\Libraries\StdDriver\inc\ADC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CAN.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\FMC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\GPIO.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2C.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PWM.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SPI.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CRC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\TIMER.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WWDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\RTC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\UART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2S.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\USBD.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PDMA.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SCUART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PS2.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CLK.h)(0x599535A2)
-I (.\Libraries\StdDriver\inc\ACMP.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\EBI.h)(0x55E95588)
-F (.\Libraries\StdDriver\src\gpio.c)(0x55E95588)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\gpio.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\NUC230_240.h)(0x594CA63A)
-I (.\Libraries\CMSIS\Include\core_cm0.h)(0x55E95586)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x55E95586)
-I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x55E95586)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\system_NUC230_240.h)(0x55E95586)
-I (.\Libraries\StdDriver\inc\SYS.h)(0x593E5D3E)
-I (.\Libraries\StdDriver\inc\ADC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CAN.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\FMC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\GPIO.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2C.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PWM.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SPI.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CRC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\TIMER.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WWDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\RTC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\UART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2S.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\USBD.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PDMA.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SCUART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PS2.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CLK.h)(0x599535A2)
-I (.\Libraries\StdDriver\inc\ACMP.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\EBI.h)(0x55E95588)
-F (.\Libraries\StdDriver\src\hid_mousekeyboard.c)(0x5993E24D)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\hid_mousekeyboard.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\hid_mousekeyboard.crf --depend .\objects\hid_mousekeyboard.d)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\NUC230_240.h)(0x594CA63A)
-I (.\Libraries\CMSIS\Include\core_cm0.h)(0x55E95586)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x55E95586)
-I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x55E95586)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\system_NUC230_240.h)(0x55E95586)
-I (.\Libraries\StdDriver\inc\SYS.h)(0x593E5D3E)
-I (.\Libraries\StdDriver\inc\ADC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CAN.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\FMC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\GPIO.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2C.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PWM.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SPI.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CRC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\TIMER.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WWDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\RTC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\UART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2S.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\USBD.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PDMA.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SCUART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PS2.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CLK.h)(0x599535A2)
-I (.\Libraries\StdDriver\inc\ACMP.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\EBI.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\hid_mousekeyboard.h)(0x59940C10)
-I (..\..\include\rthw.h)(0x59427654)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-F (.\Libraries\StdDriver\src\i2c.c)(0x55E95588)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\i2c.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\i2c.crf --depend .\objects\i2c.d)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\NUC230_240.h)(0x594CA63A)
-I (.\Libraries\CMSIS\Include\core_cm0.h)(0x55E95586)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x55E95586)
-I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x55E95586)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\system_NUC230_240.h)(0x55E95586)
-I (.\Libraries\StdDriver\inc\SYS.h)(0x593E5D3E)
-I (.\Libraries\StdDriver\inc\ADC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CAN.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\FMC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\GPIO.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2C.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PWM.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SPI.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CRC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\TIMER.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WWDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\RTC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\UART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2S.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\USBD.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PDMA.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SCUART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PS2.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CLK.h)(0x599535A2)
-I (.\Libraries\StdDriver\inc\ACMP.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\EBI.h)(0x55E95588)
-F (.\Libraries\StdDriver\src\i2s.c)(0x55E95588)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\i2s.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\i2s.crf --depend .\objects\i2s.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\NUC230_240.h)(0x594CA63A)
-I (.\Libraries\CMSIS\Include\core_cm0.h)(0x55E95586)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x55E95586)
-I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x55E95586)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\system_NUC230_240.h)(0x55E95586)
-I (.\Libraries\StdDriver\inc\SYS.h)(0x593E5D3E)
-I (.\Libraries\StdDriver\inc\ADC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CAN.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\FMC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\GPIO.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2C.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PWM.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SPI.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CRC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\TIMER.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WWDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\RTC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\UART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2S.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\USBD.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PDMA.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SCUART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PS2.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CLK.h)(0x599535A2)
-I (.\Libraries\StdDriver\inc\ACMP.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\EBI.h)(0x55E95588)
-F (.\Libraries\StdDriver\src\pdma.c)(0x55E95588)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\pdma.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\pdma.crf --depend .\objects\pdma.d)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\NUC230_240.h)(0x594CA63A)
-I (.\Libraries\CMSIS\Include\core_cm0.h)(0x55E95586)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x55E95586)
-I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x55E95586)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\system_NUC230_240.h)(0x55E95586)
-I (.\Libraries\StdDriver\inc\SYS.h)(0x593E5D3E)
-I (.\Libraries\StdDriver\inc\ADC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CAN.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\FMC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\GPIO.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2C.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PWM.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SPI.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CRC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\TIMER.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WWDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\RTC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\UART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2S.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\USBD.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PDMA.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SCUART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PS2.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CLK.h)(0x599535A2)
-I (.\Libraries\StdDriver\inc\ACMP.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\EBI.h)(0x55E95588)
-F (.\Libraries\StdDriver\src\ps2.c)(0x55E95588)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\ps2.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\ps2.crf --depend .\objects\ps2.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\NUC230_240.h)(0x594CA63A)
-I (.\Libraries\CMSIS\Include\core_cm0.h)(0x55E95586)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x55E95586)
-I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x55E95586)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\system_NUC230_240.h)(0x55E95586)
-I (.\Libraries\StdDriver\inc\SYS.h)(0x593E5D3E)
-I (.\Libraries\StdDriver\inc\ADC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CAN.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\FMC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\GPIO.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2C.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PWM.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SPI.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CRC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\TIMER.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WWDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\RTC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\UART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2S.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\USBD.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PDMA.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SCUART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PS2.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CLK.h)(0x599535A2)
-I (.\Libraries\StdDriver\inc\ACMP.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\EBI.h)(0x55E95588)
-F (.\Libraries\StdDriver\src\pwm.c)(0x55E95588)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\pwm.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\pwm.crf --depend .\objects\pwm.d)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\NUC230_240.h)(0x594CA63A)
-I (.\Libraries\CMSIS\Include\core_cm0.h)(0x55E95586)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x55E95586)
-I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x55E95586)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\system_NUC230_240.h)(0x55E95586)
-I (.\Libraries\StdDriver\inc\SYS.h)(0x593E5D3E)
-I (.\Libraries\StdDriver\inc\ADC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CAN.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\FMC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\GPIO.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2C.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PWM.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SPI.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CRC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\TIMER.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WWDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\RTC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\UART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2S.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\USBD.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PDMA.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SCUART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PS2.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CLK.h)(0x599535A2)
-I (.\Libraries\StdDriver\inc\ACMP.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\EBI.h)(0x55E95588)
-F (.\Libraries\StdDriver\src\rtc.c)(0x55E95588)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\rtc.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\rtc.crf --depend .\objects\rtc.d)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\NUC230_240.h)(0x594CA63A)
-I (.\Libraries\CMSIS\Include\core_cm0.h)(0x55E95586)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x55E95586)
-I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x55E95586)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\system_NUC230_240.h)(0x55E95586)
-I (.\Libraries\StdDriver\inc\SYS.h)(0x593E5D3E)
-I (.\Libraries\StdDriver\inc\ADC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CAN.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\FMC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\GPIO.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2C.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PWM.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SPI.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CRC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\TIMER.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WWDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\RTC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\UART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2S.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\USBD.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PDMA.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SCUART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PS2.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CLK.h)(0x599535A2)
-I (.\Libraries\StdDriver\inc\ACMP.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\EBI.h)(0x55E95588)
-F (.\Libraries\StdDriver\src\sc.c)(0x55E95588)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\sc.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\sc.crf --depend .\objects\sc.d)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\NUC230_240.h)(0x594CA63A)
-I (.\Libraries\CMSIS\Include\core_cm0.h)(0x55E95586)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x55E95586)
-I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x55E95586)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\system_NUC230_240.h)(0x55E95586)
-I (.\Libraries\StdDriver\inc\SYS.h)(0x593E5D3E)
-I (.\Libraries\StdDriver\inc\ADC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CAN.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\FMC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\GPIO.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2C.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PWM.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SPI.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CRC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\TIMER.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WWDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\RTC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\UART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2S.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\USBD.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PDMA.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SCUART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PS2.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CLK.h)(0x599535A2)
-I (.\Libraries\StdDriver\inc\ACMP.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\EBI.h)(0x55E95588)
-F (.\Libraries\StdDriver\src\scuart.c)(0x55E95588)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\scuart.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\scuart.crf --depend .\objects\scuart.d)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\NUC230_240.h)(0x594CA63A)
-I (.\Libraries\CMSIS\Include\core_cm0.h)(0x55E95586)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x55E95586)
-I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x55E95586)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\system_NUC230_240.h)(0x55E95586)
-I (.\Libraries\StdDriver\inc\SYS.h)(0x593E5D3E)
-I (.\Libraries\StdDriver\inc\ADC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CAN.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\FMC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\GPIO.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2C.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PWM.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SPI.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CRC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\TIMER.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WWDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\RTC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\UART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2S.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\USBD.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PDMA.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SCUART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PS2.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CLK.h)(0x599535A2)
-I (.\Libraries\StdDriver\inc\ACMP.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\EBI.h)(0x55E95588)
-F (.\Libraries\StdDriver\src\spi.c)(0x55E95588)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\spi.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\spi.crf --depend .\objects\spi.d)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\NUC230_240.h)(0x594CA63A)
-I (.\Libraries\CMSIS\Include\core_cm0.h)(0x55E95586)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x55E95586)
-I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x55E95586)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\system_NUC230_240.h)(0x55E95586)
-I (.\Libraries\StdDriver\inc\SYS.h)(0x593E5D3E)
-I (.\Libraries\StdDriver\inc\ADC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CAN.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\FMC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\GPIO.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2C.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PWM.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SPI.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CRC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\TIMER.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WWDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\RTC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\UART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2S.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\USBD.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PDMA.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SCUART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PS2.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CLK.h)(0x599535A2)
-I (.\Libraries\StdDriver\inc\ACMP.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\EBI.h)(0x55E95588)
-F (.\Libraries\StdDriver\src\sys.c)(0x55E95588)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\sys.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\sys.crf --depend .\objects\sys.d)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\NUC230_240.h)(0x594CA63A)
-I (.\Libraries\CMSIS\Include\core_cm0.h)(0x55E95586)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x55E95586)
-I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x55E95586)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\system_NUC230_240.h)(0x55E95586)
-I (.\Libraries\StdDriver\inc\SYS.h)(0x593E5D3E)
-I (.\Libraries\StdDriver\inc\ADC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CAN.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\FMC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\GPIO.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2C.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PWM.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SPI.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CRC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\TIMER.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WWDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\RTC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\UART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2S.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\USBD.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PDMA.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SCUART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PS2.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CLK.h)(0x599535A2)
-I (.\Libraries\StdDriver\inc\ACMP.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\EBI.h)(0x55E95588)
-F (.\Libraries\StdDriver\src\timer.c)(0x55E95588)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\timer.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\NUC230_240.h)(0x594CA63A)
-I (.\Libraries\CMSIS\Include\core_cm0.h)(0x55E95586)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x55E95586)
-I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x55E95586)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\system_NUC230_240.h)(0x55E95586)
-I (.\Libraries\StdDriver\inc\SYS.h)(0x593E5D3E)
-I (.\Libraries\StdDriver\inc\ADC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CAN.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\FMC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\GPIO.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2C.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PWM.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SPI.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CRC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\TIMER.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WWDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\RTC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\UART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2S.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\USBD.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PDMA.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SCUART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PS2.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CLK.h)(0x599535A2)
-I (.\Libraries\StdDriver\inc\ACMP.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\EBI.h)(0x55E95588)
-F (.\Libraries\StdDriver\src\uart.c)(0x593FAF3A)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\uart.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\NUC230_240.h)(0x594CA63A)
-I (.\Libraries\CMSIS\Include\core_cm0.h)(0x55E95586)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x55E95586)
-I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x55E95586)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\system_NUC230_240.h)(0x55E95586)
-I (.\Libraries\StdDriver\inc\SYS.h)(0x593E5D3E)
-I (.\Libraries\StdDriver\inc\ADC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CAN.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\FMC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\GPIO.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2C.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PWM.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SPI.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CRC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\TIMER.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WWDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\RTC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\UART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2S.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\USBD.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PDMA.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SCUART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PS2.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CLK.h)(0x599535A2)
-I (.\Libraries\StdDriver\inc\ACMP.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\EBI.h)(0x55E95588)
-F (.\Libraries\StdDriver\src\usbd.c)(0x5995390A)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\usbd_1.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\usbd_1.crf --depend .\objects\usbd_1.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\NUC230_240.h)(0x594CA63A)
-I (.\Libraries\CMSIS\Include\core_cm0.h)(0x55E95586)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x55E95586)
-I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x55E95586)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\system_NUC230_240.h)(0x55E95586)
-I (.\Libraries\StdDriver\inc\SYS.h)(0x593E5D3E)
-I (.\Libraries\StdDriver\inc\ADC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CAN.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\FMC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\GPIO.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2C.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PWM.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SPI.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CRC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\TIMER.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WWDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\RTC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\UART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2S.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\USBD.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PDMA.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SCUART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PS2.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CLK.h)(0x599535A2)
-I (.\Libraries\StdDriver\inc\ACMP.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\EBI.h)(0x55E95588)
-I (..\..\include\rthw.h)(0x59427654)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-F (.\Libraries\StdDriver\src\wdt.c)(0x55E95588)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\wdt.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\wdt.crf --depend .\objects\wdt.d)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\NUC230_240.h)(0x594CA63A)
-I (.\Libraries\CMSIS\Include\core_cm0.h)(0x55E95586)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x55E95586)
-I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x55E95586)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\system_NUC230_240.h)(0x55E95586)
-I (.\Libraries\StdDriver\inc\SYS.h)(0x593E5D3E)
-I (.\Libraries\StdDriver\inc\ADC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CAN.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\FMC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\GPIO.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2C.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PWM.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SPI.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CRC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\TIMER.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WWDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\RTC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\UART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2S.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\USBD.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PDMA.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SCUART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PS2.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CLK.h)(0x599535A2)
-I (.\Libraries\StdDriver\inc\ACMP.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\EBI.h)(0x55E95588)
-F (.\Libraries\StdDriver\src\wwdt.c)(0x55E95588)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\wwdt.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\wwdt.crf --depend .\objects\wwdt.d)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\NUC230_240.h)(0x594CA63A)
-I (.\Libraries\CMSIS\Include\core_cm0.h)(0x55E95586)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x55E95586)
-I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x55E95586)
-I (.\Libraries\Device\Nuvoton\NUC230_240\Include\system_NUC230_240.h)(0x55E95586)
-I (.\Libraries\StdDriver\inc\SYS.h)(0x593E5D3E)
-I (.\Libraries\StdDriver\inc\ADC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CAN.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\FMC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\GPIO.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2C.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PWM.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SPI.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CRC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\TIMER.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\WWDT.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\RTC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\UART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\I2S.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\USBD.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PDMA.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SC.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\SCUART.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\PS2.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\CLK.h)(0x599535A2)
-I (.\Libraries\StdDriver\inc\ACMP.h)(0x55E95588)
-I (.\Libraries\StdDriver\inc\EBI.h)(0x55E95588)
-F (..\..\src\clock.c)(0x59427654)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\clock.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\clock.crf --depend .\objects\clock.d)
-I (..\..\include\rthw.h)(0x59427654)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-F (..\..\src\device.c)(0x59427654)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\device.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\device.crf --depend .\objects\device.d)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-F (..\..\src\idle.c)(0x59427654)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\idle.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\idle.crf --depend .\objects\idle.d)
-I (..\..\include\rthw.h)(0x59427654)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-F (..\..\src\ipc.c)(0x59427654)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\ipc.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\ipc.crf --depend .\objects\ipc.d)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-I (..\..\include\rthw.h)(0x59427654)
-F (..\..\src\irq.c)(0x59427654)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\irq.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\irq.crf --depend .\objects\irq.d)
-I (..\..\include\rthw.h)(0x59427654)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-F (..\..\src\kservice.c)(0x599526F4)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\kservice.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\kservice.crf --depend .\objects\kservice.d)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-I (..\..\include\rthw.h)(0x59427654)
-F (..\..\src\mem.c)(0x59427654)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\mem.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\mem.crf --depend .\objects\mem.d)
-I (..\..\include\rthw.h)(0x59427654)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-I (..\..\components\finsh\finsh.h)(0x59427651)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x574E3E26)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
-F (..\..\src\memheap.c)(0x59427654)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\memheap.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\memheap.crf --depend .\objects\memheap.d)
-I (..\..\include\rthw.h)(0x59427654)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-F (..\..\src\mempool.c)(0x59964293)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\mempool.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\mempool.crf --depend .\objects\mempool.d)
-I (..\..\include\rthw.h)(0x59427654)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-F (..\..\src\module.c)(0x59427654)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\module.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\module.crf --depend .\objects\module.d)
-I (..\..\include\rthw.h)(0x59427654)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-I (..\..\components\finsh\finsh.h)(0x59427651)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x574E3E26)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
-F (..\..\src\object.c)(0x59427654)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\object.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\object.crf --depend .\objects\object.d)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-I (..\..\include\rthw.h)(0x59427654)
-F (..\..\src\scheduler.c)(0x598C130B)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\scheduler.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\scheduler.crf --depend .\objects\scheduler.d)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-I (..\..\include\rthw.h)(0x59427654)
-F (..\..\src\thread.c)(0x599E72E4)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\thread.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\thread.crf --depend .\objects\thread.d)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-I (..\..\include\rthw.h)(0x59427654)
-F (..\..\src\src_timer.c)(0x5954EA27)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\src_timer.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\src_timer.crf --depend .\objects\src_timer.d)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-I (..\..\include\rthw.h)(0x59427654)
-F (..\..\libcpu\arm\cortex-m0\cpuport.c)(0x59427654)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\cpuport.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\cpuport.crf --depend .\objects\cpuport.d)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-F (..\..\libcpu\arm\cortex-m0\context_rvds.S)(0x59427654)(--cpu Cortex-M0 -g --16 --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 521"--list .\listings\context_rvds.lst --xref -o .\objects\context_rvds.o --depend .\objects\context_rvds.d)
-F (..\..\libcpu\arm\common\backtrace.c)(0x59427654)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\backtrace.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\backtrace.crf --depend .\objects\backtrace.d)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-F (..\..\libcpu\arm\common\div0.c)(0x59427654)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\div0.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\div0.crf --depend .\objects\div0.d)
-F (..\..\libcpu\arm\common\showmem.c)(0x59427654)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\showmem.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\showmem.crf --depend .\objects\showmem.d)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-F (..\..\components\drivers\serial\serial.c)(0x59911404)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\serial.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\serial.crf --depend .\objects\serial.d)
-I (..\..\include\rthw.h)(0x59427654)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-I (..\..\components\drivers\include\rtdevice.h)(0x59427649)
-I (..\..\components\drivers\include\drivers/usb_device.h)(0x5992A530)
-I (..\..\components\drivers\include\drivers/usb_common.h)(0x59427649)
-I (..\..\components\drivers\include\drivers/usb_host.h)(0x59427649)
-I (..\..\components\drivers\include\drivers/serial.h)(0x59427649)
-F (..\..\components\drivers\src\completion.c)(0x5942764A)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\completion.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\completion.crf --depend .\objects\completion.d)
-I (..\..\include\rthw.h)(0x59427654)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-I (..\..\components\drivers\include\rtdevice.h)(0x59427649)
-I (..\..\components\drivers\include\drivers/usb_device.h)(0x5992A530)
-I (..\..\components\drivers\include\drivers/usb_common.h)(0x59427649)
-I (..\..\components\drivers\include\drivers/usb_host.h)(0x59427649)
-I (..\..\components\drivers\include\drivers/serial.h)(0x59427649)
-F (..\..\components\drivers\src\dataqueue.c)(0x5942764A)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\dataqueue.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\dataqueue.crf --depend .\objects\dataqueue.d)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-I (..\..\components\drivers\include\rtdevice.h)(0x59427649)
-I (..\..\components\drivers\include\drivers/usb_device.h)(0x5992A530)
-I (..\..\components\drivers\include\drivers/usb_common.h)(0x59427649)
-I (..\..\components\drivers\include\drivers/usb_host.h)(0x59427649)
-I (..\..\components\drivers\include\drivers/serial.h)(0x59427649)
-I (..\..\include\rthw.h)(0x59427654)
-F (..\..\components\drivers\src\pipe.c)(0x5942764A)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\pipe.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\pipe.crf --depend .\objects\pipe.d)
-I (..\..\include\rthw.h)(0x59427654)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-I (..\..\components\drivers\include\rtdevice.h)(0x59427649)
-I (..\..\components\drivers\include\drivers/usb_device.h)(0x5992A530)
-I (..\..\components\drivers\include\drivers/usb_common.h)(0x59427649)
-I (..\..\components\drivers\include\drivers/usb_host.h)(0x59427649)
-I (..\..\components\drivers\include\drivers/serial.h)(0x59427649)
-F (..\..\components\drivers\src\portal.c)(0x5942764A)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\portal.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\portal.crf --depend .\objects\portal.d)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-I (..\..\components\drivers\include\rtdevice.h)(0x59427649)
-I (..\..\components\drivers\include\drivers/usb_device.h)(0x5992A530)
-I (..\..\components\drivers\include\drivers/usb_common.h)(0x59427649)
-I (..\..\components\drivers\include\drivers/usb_host.h)(0x59427649)
-I (..\..\components\drivers\include\drivers/serial.h)(0x59427649)
-F (..\..\components\drivers\src\ringbuffer.c)(0x5942764A)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\ringbuffer.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\ringbuffer.crf --depend .\objects\ringbuffer.d)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-I (..\..\components\drivers\include\rtdevice.h)(0x59427649)
-I (..\..\components\drivers\include\drivers/usb_device.h)(0x5992A530)
-I (..\..\components\drivers\include\drivers/usb_common.h)(0x59427649)
-I (..\..\components\drivers\include\drivers/usb_host.h)(0x59427649)
-I (..\..\components\drivers\include\drivers/serial.h)(0x59427649)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
-F (..\..\components\drivers\src\workqueue.c)(0x5942764A)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\workqueue.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\workqueue.crf --depend .\objects\workqueue.d)
-I (..\..\include\rthw.h)(0x59427654)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-I (..\..\components\drivers\include\rtdevice.h)(0x59427649)
-I (..\..\components\drivers\include\drivers/usb_device.h)(0x5992A530)
-I (..\..\components\drivers\include\drivers/usb_common.h)(0x59427649)
-I (..\..\components\drivers\include\drivers/usb_host.h)(0x59427649)
-I (..\..\components\drivers\include\drivers/serial.h)(0x59427649)
-F (..\..\components\finsh\cmd.c)(0x59427651)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\cmd.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\cmd.crf --depend .\objects\cmd.d)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-I (..\..\components\finsh\finsh.h)(0x59427651)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x574E3E26)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
-F (..\..\components\finsh\finsh_compiler.c)(0x59427651)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\finsh_compiler.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\finsh_compiler.crf --depend .\objects\finsh_compiler.d)
-I (..\..\components\finsh\finsh.h)(0x59427651)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x574E3E26)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
-I (..\..\components\finsh\finsh_node.h)(0x59427651)
-I (..\..\components\finsh\finsh_error.h)(0x59427651)
-I (..\..\components\finsh\finsh_var.h)(0x59427651)
-I (..\..\components\finsh\finsh_ops.h)(0x59427651)
-I (..\..\components\finsh\finsh_vm.h)(0x59427651)
-F (..\..\components\finsh\finsh_error.c)(0x59427651)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\finsh_error.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\finsh_error.crf --depend .\objects\finsh_error.d)
-I (..\..\components\finsh\finsh_error.h)(0x59427651)
-I (..\..\components\finsh\finsh.h)(0x59427651)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x574E3E26)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
-F (..\..\components\finsh\finsh_heap.c)(0x59427651)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\finsh_heap.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\finsh_heap.crf --depend .\objects\finsh_heap.d)
-I (..\..\components\finsh\finsh.h)(0x59427651)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x574E3E26)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
-I (..\..\components\finsh\finsh_var.h)(0x59427651)
-F (..\..\components\finsh\finsh_init.c)(0x59427651)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\finsh_init.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\finsh_init.crf --depend .\objects\finsh_init.d)
-I (..\..\components\finsh\finsh.h)(0x59427651)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x574E3E26)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
-I (..\..\components\finsh\finsh_node.h)(0x59427651)
-I (..\..\components\finsh\finsh_vm.h)(0x59427651)
-I (..\..\components\finsh\finsh_var.h)(0x59427651)
-I (..\..\components\finsh\finsh_parser.h)(0x59427651)
-I (..\..\components\finsh\finsh_error.h)(0x59427651)
-I (..\..\components\finsh\finsh_heap.h)(0x59427651)
-F (..\..\components\finsh\finsh_node.c)(0x59427651)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\finsh_node.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\finsh_node.crf --depend .\objects\finsh_node.d)
-I (..\..\components\finsh\finsh.h)(0x59427651)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x574E3E26)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
-I (..\..\components\finsh\finsh_node.h)(0x59427651)
-I (..\..\components\finsh\finsh_error.h)(0x59427651)
-I (..\..\components\finsh\finsh_var.h)(0x59427651)
-I (..\..\components\finsh\finsh_heap.h)(0x59427651)
-F (..\..\components\finsh\finsh_ops.c)(0x59427651)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\finsh_ops.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\finsh_ops.crf --depend .\objects\finsh_ops.d)
-I (..\..\components\finsh\finsh_ops.h)(0x59427651)
-I (..\..\components\finsh\finsh_vm.h)(0x59427651)
-I (..\..\components\finsh\finsh.h)(0x59427651)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x574E3E26)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
-I (..\..\components\finsh\finsh_var.h)(0x59427651)
-F (..\..\components\finsh\finsh_parser.c)(0x59427651)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\finsh_parser.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\finsh_parser.crf --depend .\objects\finsh_parser.d)
-I (..\..\components\finsh\finsh.h)(0x59427651)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x574E3E26)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
-I (..\..\components\finsh\finsh_token.h)(0x59427651)
-I (..\..\components\finsh\finsh_node.h)(0x59427651)
-I (..\..\components\finsh\finsh_error.h)(0x59427651)
-I (..\..\components\finsh\finsh_parser.h)(0x59427651)
-I (..\..\components\finsh\finsh_var.h)(0x59427651)
-F (..\..\components\finsh\finsh_token.c)(0x59427651)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\finsh_token.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\finsh_token.crf --depend .\objects\finsh_token.d)
-I (..\..\components\finsh\finsh.h)(0x59427651)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x574E3E26)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
-I (..\..\components\finsh\finsh_token.h)(0x59427651)
-I (..\..\components\finsh\finsh_error.h)(0x59427651)
-F (..\..\components\finsh\finsh_var.c)(0x59427651)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\finsh_var.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\finsh_var.crf --depend .\objects\finsh_var.d)
-I (..\..\components\finsh\finsh.h)(0x59427651)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x574E3E26)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
-I (..\..\components\finsh\finsh_var.h)(0x59427651)
-F (..\..\components\finsh\finsh_vm.c)(0x59427651)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\finsh_vm.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\finsh_vm.crf --depend .\objects\finsh_vm.d)
-I (..\..\components\finsh\finsh.h)(0x59427651)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x574E3E26)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
-I (..\..\components\finsh\finsh_vm.h)(0x59427651)
-I (..\..\components\finsh\finsh_var.h)(0x59427651)
-I (..\..\components\finsh\finsh_ops.h)(0x59427651)
-F (..\..\components\finsh\shell.c)(0x59427651)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\shell.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\shell.crf --depend .\objects\shell.d)
-I (..\..\include\rthw.h)(0x59427654)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-I (..\..\components\finsh\finsh.h)(0x59427651)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x574E3E26)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
-I (..\..\components\finsh\shell.h)(0x59427651)
-F (..\..\components\finsh\symbol.c)(0x59427651)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\symbol.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\symbol.crf --depend .\objects\symbol.d)
-I (..\..\components\finsh\finsh.h)(0x59427651)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x574E3E26)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
-F (..\..\src\components.c)(0x59427654)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\Listings\\" -I .\Libraries\Device\Nuvoton -I ..\..\components\finsh -I .\Libraries\CMSIS\Include -I .\Libraries\StdDriver\inc -I ..\..\include -I .\APP -I .\Drivers -I ..\..\components\drivers\include -I ..\..\components\drivers\include\drivers -I ..\nuvoton_nuc240 -I .\Libraries\Device\Nuvoton\NUC230_240\Include -I ..\..\include -I ..\..\components\drivers\usb\usbdevice\class-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DRT_DEBUG-o .\objects\components.o --list_dir ".\\Listings\\" --list --omf_browse .\objects\components.crf --depend .\objects\components.d)
-I (..\..\include\rthw.h)(0x59427654)
-I (..\..\include\rtthread.h)(0x59427654)
-I (..\nuvoton_nuc240\rtconfig.h)(0x5992A45D)
-I (..\..\include\rtdebug.h)(0x59427654)
-I (..\..\include\rtdef.h)(0x59427654)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\include\rtservice.h)(0x599D502F)
-I (..\..\include\rtm.h)(0x59427654)
