@@ -1,0 +1,15 @@
+.\objects\serial.o: ..\..\components\drivers\serial\serial.c
+.\objects\serial.o: ..\..\include\rthw.h
+.\objects\serial.o: ..\..\include\rtthread.h
+.\objects\serial.o: ..\nuvoton_nuc240\rtconfig.h
+.\objects\serial.o: ..\..\include\rtdebug.h
+.\objects\serial.o: ..\..\include\rtdef.h
+.\objects\serial.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\serial.o: ..\..\include\rtservice.h
+.\objects\serial.o: ..\..\include\rtm.h
+.\objects\serial.o: ..\..\include\rtthread.h
+.\objects\serial.o: ..\..\components\drivers\include\rtdevice.h
+.\objects\serial.o: ..\..\components\drivers\include\drivers/usb_device.h
+.\objects\serial.o: ..\..\components\drivers\include\drivers/usb_common.h
+.\objects\serial.o: ..\..\components\drivers\include\drivers/usb_host.h
+.\objects\serial.o: ..\..\components\drivers\include\drivers/serial.h

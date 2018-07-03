@@ -1,0 +1,10 @@
+.\objects\idle.o: ..\..\src\idle.c
+.\objects\idle.o: ..\..\include\rthw.h
+.\objects\idle.o: ..\..\include\rtthread.h
+.\objects\idle.o: ..\nuvoton_nuc240\rtconfig.h
+.\objects\idle.o: ..\..\include\rtdebug.h
+.\objects\idle.o: ..\..\include\rtdef.h
+.\objects\idle.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\idle.o: ..\..\include\rtservice.h
+.\objects\idle.o: ..\..\include\rtm.h
+.\objects\idle.o: ..\..\include\rtthread.h

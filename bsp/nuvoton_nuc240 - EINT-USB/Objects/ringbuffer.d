@@ -1,0 +1,15 @@
+.\objects\ringbuffer.o: ..\..\components\drivers\src\ringbuffer.c
+.\objects\ringbuffer.o: ..\..\include\rtthread.h
+.\objects\ringbuffer.o: ..\nuvoton_nuc240\rtconfig.h
+.\objects\ringbuffer.o: ..\..\include\rtdebug.h
+.\objects\ringbuffer.o: ..\..\include\rtdef.h
+.\objects\ringbuffer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\ringbuffer.o: ..\..\include\rtservice.h
+.\objects\ringbuffer.o: ..\..\include\rtm.h
+.\objects\ringbuffer.o: ..\..\include\rtthread.h
+.\objects\ringbuffer.o: ..\..\components\drivers\include\rtdevice.h
+.\objects\ringbuffer.o: ..\..\components\drivers\include\drivers/usb_device.h
+.\objects\ringbuffer.o: ..\..\components\drivers\include\drivers/usb_common.h
+.\objects\ringbuffer.o: ..\..\components\drivers\include\drivers/usb_host.h
+.\objects\ringbuffer.o: ..\..\components\drivers\include\drivers/serial.h
+.\objects\ringbuffer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

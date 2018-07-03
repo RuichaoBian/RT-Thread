@@ -1,0 +1,10 @@
+.\objects\kservice.o: ..\..\src\kservice.c
+.\objects\kservice.o: ..\..\include\rtthread.h
+.\objects\kservice.o: ..\nuvoton_nuc240\rtconfig.h
+.\objects\kservice.o: ..\..\include\rtdebug.h
+.\objects\kservice.o: ..\..\include\rtdef.h
+.\objects\kservice.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\kservice.o: ..\..\include\rtservice.h
+.\objects\kservice.o: ..\..\include\rtm.h
+.\objects\kservice.o: ..\..\include\rtthread.h
+.\objects\kservice.o: ..\..\include\rthw.h

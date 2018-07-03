@@ -1,0 +1,15 @@
+.\objects\pipe.o: ..\..\components\drivers\src\pipe.c
+.\objects\pipe.o: ..\..\include\rthw.h
+.\objects\pipe.o: ..\..\include\rtthread.h
+.\objects\pipe.o: ..\nuvoton_nuc240\rtconfig.h
+.\objects\pipe.o: ..\..\include\rtdebug.h
+.\objects\pipe.o: ..\..\include\rtdef.h
+.\objects\pipe.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\pipe.o: ..\..\include\rtservice.h
+.\objects\pipe.o: ..\..\include\rtm.h
+.\objects\pipe.o: ..\..\include\rtthread.h
+.\objects\pipe.o: ..\..\components\drivers\include\rtdevice.h
+.\objects\pipe.o: ..\..\components\drivers\include\drivers/usb_device.h
+.\objects\pipe.o: ..\..\components\drivers\include\drivers/usb_common.h
+.\objects\pipe.o: ..\..\components\drivers\include\drivers/usb_host.h
+.\objects\pipe.o: ..\..\components\drivers\include\drivers/serial.h

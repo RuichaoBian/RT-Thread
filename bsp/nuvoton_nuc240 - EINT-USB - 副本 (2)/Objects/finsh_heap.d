@@ -1,0 +1,14 @@
+.\objects\finsh_heap.o: ..\..\components\finsh\finsh_heap.c
+.\objects\finsh_heap.o: ..\..\components\finsh\finsh.h
+.\objects\finsh_heap.o: ..\..\include\rtthread.h
+.\objects\finsh_heap.o: ..\nuvoton_nuc240\rtconfig.h
+.\objects\finsh_heap.o: ..\..\include\rtdebug.h
+.\objects\finsh_heap.o: ..\..\include\rtdef.h
+.\objects\finsh_heap.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\finsh_heap.o: ..\..\include\rtservice.h
+.\objects\finsh_heap.o: ..\..\include\rtm.h
+.\objects\finsh_heap.o: ..\..\include\rtthread.h
+.\objects\finsh_heap.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\finsh_heap.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\finsh_heap.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\finsh_heap.o: ..\..\components\finsh\finsh_var.h

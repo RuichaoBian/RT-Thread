@@ -1,0 +1,5 @@
+L 1 "..\..\libcpu\arm\common\div0.c"
+Nvoid __div0 (void)
+N{
+N	while (1) ;
+N}

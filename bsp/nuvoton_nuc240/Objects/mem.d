@@ -1,0 +1,14 @@
+.\objects\mem.o: ..\..\src\mem.c
+.\objects\mem.o: ..\..\include\rthw.h
+.\objects\mem.o: ..\..\include\rtthread.h
+.\objects\mem.o: ..\nuvoton_nuc240\rtconfig.h
+.\objects\mem.o: ..\..\include\rtdebug.h
+.\objects\mem.o: ..\..\include\rtdef.h
+.\objects\mem.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\mem.o: ..\..\include\rtservice.h
+.\objects\mem.o: ..\..\include\rtm.h
+.\objects\mem.o: ..\..\include\rtthread.h
+.\objects\mem.o: ..\..\components\finsh\finsh.h
+.\objects\mem.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\mem.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\mem.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

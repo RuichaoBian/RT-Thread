@@ -1,0 +1,903 @@
+Dependencies for Project 'project', Target 'rt-thread': (DO NOT MODIFY !)
+F (applications\startup.c)(0x5955C291)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\startup.o --omf_browse .\build\startup.crf --depend .\build\startup.d)
+I (..\..\include\rthw.h)(0x59427654)
+I (..\..\include\rtthread.h)(0x59427654)
+I (.\rtconfig.h)(0x5955A7F9)
+I (..\..\include\rtdebug.h)(0x59427654)
+I (..\..\include\rtdef.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\include\rtservice.h)(0x59427654)
+I (..\..\include\rtm.h)(0x59427654)
+I (drivers\usart.h)(0x5942763D)
+I (drivers\board.h)(0x5954B9B9)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\M051Series.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cm0.h)(0x5942763D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (Libraries\CMSIS\Include\core_cmInstr.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cmFunc.h)(0x5942763D)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\system_M051Series.h)(0x5942763D)
+I (Libraries\StdDriver\inc\sys.h)(0x5942763D)
+I (Libraries\StdDriver\inc\clk.h)(0x5942763D)
+I (Libraries\StdDriver\inc\adc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\ebi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\fmc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\gpio.h)(0x5942763D)
+I (Libraries\StdDriver\inc\i2c.h)(0x5942763D)
+I (Libraries\StdDriver\inc\pwm.h)(0x5942763D)
+I (Libraries\StdDriver\inc\spi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\timer.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wwdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\uart.h)(0x5942763D)
+I (Libraries\StdDriver\inc\hdiv.h)(0x5942763D)
+I (Libraries\StdDriver\inc\acmp.h)(0x5942763D)
+I (drivers\printf.h)(0x5954E781)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+F (drivers\board.c)(0x5955A0E6)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\board.o --omf_browse .\build\board.crf --depend .\build\board.d)
+I (..\..\include\rthw.h)(0x59427654)
+I (..\..\include\rtthread.h)(0x59427654)
+I (.\rtconfig.h)(0x5955A7F9)
+I (..\..\include\rtdebug.h)(0x59427654)
+I (..\..\include\rtdef.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\include\rtservice.h)(0x59427654)
+I (..\..\include\rtm.h)(0x59427654)
+I (drivers\board.h)(0x5954B9B9)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\M051Series.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cm0.h)(0x5942763D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (Libraries\CMSIS\Include\core_cmInstr.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cmFunc.h)(0x5942763D)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\system_M051Series.h)(0x5942763D)
+I (Libraries\StdDriver\inc\sys.h)(0x5942763D)
+I (Libraries\StdDriver\inc\clk.h)(0x5942763D)
+I (Libraries\StdDriver\inc\adc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\ebi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\fmc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\gpio.h)(0x5942763D)
+I (Libraries\StdDriver\inc\i2c.h)(0x5942763D)
+I (Libraries\StdDriver\inc\pwm.h)(0x5942763D)
+I (Libraries\StdDriver\inc\spi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\timer.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wwdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\uart.h)(0x5942763D)
+I (Libraries\StdDriver\inc\hdiv.h)(0x5942763D)
+I (Libraries\StdDriver\inc\acmp.h)(0x5942763D)
+I (drivers\usart.h)(0x5942763D)
+I (..\..\include\components.h)(0x59427654)
+I (..\..\components\finsh\finsh.h)(0x59427651)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (..\..\components\finsh\shell.h)(0x59427651)
+F (drivers\led.c)(0x5942763D)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\led.o --omf_browse .\build\led.crf --depend .\build\led.d)
+I (drivers\led.h)(0x5942763D)
+I (..\..\include\rthw.h)(0x59427654)
+I (..\..\include\rtthread.h)(0x59427654)
+I (.\rtconfig.h)(0x5955A7F9)
+I (..\..\include\rtdebug.h)(0x59427654)
+I (..\..\include\rtdef.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\include\rtservice.h)(0x59427654)
+I (..\..\include\rtm.h)(0x59427654)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\M051Series.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cm0.h)(0x5942763D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (Libraries\CMSIS\Include\core_cmInstr.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cmFunc.h)(0x5942763D)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\system_M051Series.h)(0x5942763D)
+I (Libraries\StdDriver\inc\sys.h)(0x5942763D)
+I (Libraries\StdDriver\inc\clk.h)(0x5942763D)
+I (Libraries\StdDriver\inc\adc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\ebi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\fmc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\gpio.h)(0x5942763D)
+I (Libraries\StdDriver\inc\i2c.h)(0x5942763D)
+I (Libraries\StdDriver\inc\pwm.h)(0x5942763D)
+I (Libraries\StdDriver\inc\spi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\timer.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wwdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\uart.h)(0x5942763D)
+I (Libraries\StdDriver\inc\hdiv.h)(0x5942763D)
+I (Libraries\StdDriver\inc\acmp.h)(0x5942763D)
+I (..\..\include\components.h)(0x59427654)
+I (..\..\components\finsh\finsh.h)(0x59427651)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (..\..\components\finsh\shell.h)(0x59427651)
+F (drivers\usart.c)(0x5942763D)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\usart.o --omf_browse .\build\usart.crf --depend .\build\usart.d)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\M051Series.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cm0.h)(0x5942763D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (Libraries\CMSIS\Include\core_cmInstr.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cmFunc.h)(0x5942763D)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\system_M051Series.h)(0x5942763D)
+I (Libraries\StdDriver\inc\sys.h)(0x5942763D)
+I (Libraries\StdDriver\inc\clk.h)(0x5942763D)
+I (Libraries\StdDriver\inc\adc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\ebi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\fmc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\gpio.h)(0x5942763D)
+I (Libraries\StdDriver\inc\i2c.h)(0x5942763D)
+I (Libraries\StdDriver\inc\pwm.h)(0x5942763D)
+I (Libraries\StdDriver\inc\spi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\timer.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wwdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\uart.h)(0x5942763D)
+I (Libraries\StdDriver\inc\hdiv.h)(0x5942763D)
+I (Libraries\StdDriver\inc\acmp.h)(0x5942763D)
+I (..\..\components\drivers\include\rtdevice.h)(0x59427649)
+I (..\..\include\rtthread.h)(0x59427654)
+I (.\rtconfig.h)(0x5955A7F9)
+I (..\..\include\rtdebug.h)(0x59427654)
+I (..\..\include\rtdef.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\include\rtservice.h)(0x59427654)
+I (..\..\include\rtm.h)(0x59427654)
+I (..\..\components\drivers\include\drivers/serial.h)(0x59427649)
+I (drivers\usart.h)(0x5942763D)
+I (..\..\include\rthw.h)(0x59427654)
+F (.\drivers\printf.c)(0x5954E7A0)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\printf.o --omf_browse .\build\printf.crf --depend .\build\printf.d)
+I (drivers\printf.h)(0x5954E781)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\M051Series.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cm0.h)(0x5942763D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (Libraries\CMSIS\Include\core_cmInstr.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cmFunc.h)(0x5942763D)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\system_M051Series.h)(0x5942763D)
+I (Libraries\StdDriver\inc\sys.h)(0x5942763D)
+I (Libraries\StdDriver\inc\clk.h)(0x5942763D)
+I (Libraries\StdDriver\inc\adc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\ebi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\fmc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\gpio.h)(0x5942763D)
+I (Libraries\StdDriver\inc\i2c.h)(0x5942763D)
+I (Libraries\StdDriver\inc\pwm.h)(0x5942763D)
+I (Libraries\StdDriver\inc\spi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\timer.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wwdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\uart.h)(0x5942763D)
+I (Libraries\StdDriver\inc\hdiv.h)(0x5942763D)
+I (Libraries\StdDriver\inc\acmp.h)(0x5942763D)
+F (Libraries\CMSIS\Nuvoton\M051Series\Source\system_M051Series.c)(0x5942763D)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\system_m051series.o --omf_browse .\build\system_m051series.crf --depend .\build\system_m051series.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\M051Series.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cm0.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cmInstr.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cmFunc.h)(0x5942763D)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\system_M051Series.h)(0x5942763D)
+I (Libraries\StdDriver\inc\sys.h)(0x5942763D)
+I (Libraries\StdDriver\inc\clk.h)(0x5942763D)
+I (Libraries\StdDriver\inc\adc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\ebi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\fmc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\gpio.h)(0x5942763D)
+I (Libraries\StdDriver\inc\i2c.h)(0x5942763D)
+I (Libraries\StdDriver\inc\pwm.h)(0x5942763D)
+I (Libraries\StdDriver\inc\spi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\timer.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wwdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\uart.h)(0x5942763D)
+I (Libraries\StdDriver\inc\hdiv.h)(0x5942763D)
+I (Libraries\StdDriver\inc\acmp.h)(0x5942763D)
+F (Libraries\StdDriver\src\acmp.c)(0x5942763D)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\acmp.o --omf_browse .\build\acmp.crf --depend .\build\acmp.d)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\M051Series.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cm0.h)(0x5942763D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (Libraries\CMSIS\Include\core_cmInstr.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cmFunc.h)(0x5942763D)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\system_M051Series.h)(0x5942763D)
+I (Libraries\StdDriver\inc\sys.h)(0x5942763D)
+I (Libraries\StdDriver\inc\clk.h)(0x5942763D)
+I (Libraries\StdDriver\inc\adc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\ebi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\fmc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\gpio.h)(0x5942763D)
+I (Libraries\StdDriver\inc\i2c.h)(0x5942763D)
+I (Libraries\StdDriver\inc\pwm.h)(0x5942763D)
+I (Libraries\StdDriver\inc\spi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\timer.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wwdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\uart.h)(0x5942763D)
+I (Libraries\StdDriver\inc\hdiv.h)(0x5942763D)
+I (Libraries\StdDriver\inc\acmp.h)(0x5942763D)
+F (Libraries\StdDriver\src\adc.c)(0x5942763D)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\adc.o --omf_browse .\build\adc.crf --depend .\build\adc.d)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\M051Series.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cm0.h)(0x5942763D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (Libraries\CMSIS\Include\core_cmInstr.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cmFunc.h)(0x5942763D)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\system_M051Series.h)(0x5942763D)
+I (Libraries\StdDriver\inc\sys.h)(0x5942763D)
+I (Libraries\StdDriver\inc\clk.h)(0x5942763D)
+I (Libraries\StdDriver\inc\adc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\ebi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\fmc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\gpio.h)(0x5942763D)
+I (Libraries\StdDriver\inc\i2c.h)(0x5942763D)
+I (Libraries\StdDriver\inc\pwm.h)(0x5942763D)
+I (Libraries\StdDriver\inc\spi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\timer.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wwdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\uart.h)(0x5942763D)
+I (Libraries\StdDriver\inc\hdiv.h)(0x5942763D)
+I (Libraries\StdDriver\inc\acmp.h)(0x5942763D)
+F (Libraries\StdDriver\src\clk.c)(0x5942763D)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\clk.o --omf_browse .\build\clk.crf --depend .\build\clk.d)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\M051Series.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cm0.h)(0x5942763D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (Libraries\CMSIS\Include\core_cmInstr.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cmFunc.h)(0x5942763D)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\system_M051Series.h)(0x5942763D)
+I (Libraries\StdDriver\inc\sys.h)(0x5942763D)
+I (Libraries\StdDriver\inc\clk.h)(0x5942763D)
+I (Libraries\StdDriver\inc\adc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\ebi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\fmc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\gpio.h)(0x5942763D)
+I (Libraries\StdDriver\inc\i2c.h)(0x5942763D)
+I (Libraries\StdDriver\inc\pwm.h)(0x5942763D)
+I (Libraries\StdDriver\inc\spi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\timer.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wwdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\uart.h)(0x5942763D)
+I (Libraries\StdDriver\inc\hdiv.h)(0x5942763D)
+I (Libraries\StdDriver\inc\acmp.h)(0x5942763D)
+F (Libraries\StdDriver\src\ebi.c)(0x5942763D)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\ebi.o --omf_browse .\build\ebi.crf --depend .\build\ebi.d)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\M051Series.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cm0.h)(0x5942763D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (Libraries\CMSIS\Include\core_cmInstr.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cmFunc.h)(0x5942763D)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\system_M051Series.h)(0x5942763D)
+I (Libraries\StdDriver\inc\sys.h)(0x5942763D)
+I (Libraries\StdDriver\inc\clk.h)(0x5942763D)
+I (Libraries\StdDriver\inc\adc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\ebi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\fmc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\gpio.h)(0x5942763D)
+I (Libraries\StdDriver\inc\i2c.h)(0x5942763D)
+I (Libraries\StdDriver\inc\pwm.h)(0x5942763D)
+I (Libraries\StdDriver\inc\spi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\timer.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wwdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\uart.h)(0x5942763D)
+I (Libraries\StdDriver\inc\hdiv.h)(0x5942763D)
+I (Libraries\StdDriver\inc\acmp.h)(0x5942763D)
+F (Libraries\StdDriver\src\fmc.c)(0x5942763D)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\fmc.o --omf_browse .\build\fmc.crf --depend .\build\fmc.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\M051Series.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cm0.h)(0x5942763D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (Libraries\CMSIS\Include\core_cmInstr.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cmFunc.h)(0x5942763D)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\system_M051Series.h)(0x5942763D)
+I (Libraries\StdDriver\inc\sys.h)(0x5942763D)
+I (Libraries\StdDriver\inc\clk.h)(0x5942763D)
+I (Libraries\StdDriver\inc\adc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\ebi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\fmc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\gpio.h)(0x5942763D)
+I (Libraries\StdDriver\inc\i2c.h)(0x5942763D)
+I (Libraries\StdDriver\inc\pwm.h)(0x5942763D)
+I (Libraries\StdDriver\inc\spi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\timer.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wwdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\uart.h)(0x5942763D)
+I (Libraries\StdDriver\inc\hdiv.h)(0x5942763D)
+I (Libraries\StdDriver\inc\acmp.h)(0x5942763D)
+F (Libraries\StdDriver\src\gpio.c)(0x5942763D)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\gpio.o --omf_browse .\build\gpio.crf --depend .\build\gpio.d)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\M051Series.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cm0.h)(0x5942763D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (Libraries\CMSIS\Include\core_cmInstr.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cmFunc.h)(0x5942763D)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\system_M051Series.h)(0x5942763D)
+I (Libraries\StdDriver\inc\sys.h)(0x5942763D)
+I (Libraries\StdDriver\inc\clk.h)(0x5942763D)
+I (Libraries\StdDriver\inc\adc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\ebi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\fmc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\gpio.h)(0x5942763D)
+I (Libraries\StdDriver\inc\i2c.h)(0x5942763D)
+I (Libraries\StdDriver\inc\pwm.h)(0x5942763D)
+I (Libraries\StdDriver\inc\spi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\timer.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wwdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\uart.h)(0x5942763D)
+I (Libraries\StdDriver\inc\hdiv.h)(0x5942763D)
+I (Libraries\StdDriver\inc\acmp.h)(0x5942763D)
+F (Libraries\StdDriver\src\i2c.c)(0x5942763D)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\i2c.o --omf_browse .\build\i2c.crf --depend .\build\i2c.d)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\M051Series.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cm0.h)(0x5942763D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (Libraries\CMSIS\Include\core_cmInstr.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cmFunc.h)(0x5942763D)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\system_M051Series.h)(0x5942763D)
+I (Libraries\StdDriver\inc\sys.h)(0x5942763D)
+I (Libraries\StdDriver\inc\clk.h)(0x5942763D)
+I (Libraries\StdDriver\inc\adc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\ebi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\fmc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\gpio.h)(0x5942763D)
+I (Libraries\StdDriver\inc\i2c.h)(0x5942763D)
+I (Libraries\StdDriver\inc\pwm.h)(0x5942763D)
+I (Libraries\StdDriver\inc\spi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\timer.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wwdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\uart.h)(0x5942763D)
+I (Libraries\StdDriver\inc\hdiv.h)(0x5942763D)
+I (Libraries\StdDriver\inc\acmp.h)(0x5942763D)
+F (Libraries\StdDriver\src\pwm.c)(0x5942763D)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\pwm.o --omf_browse .\build\pwm.crf --depend .\build\pwm.d)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\M051Series.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cm0.h)(0x5942763D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (Libraries\CMSIS\Include\core_cmInstr.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cmFunc.h)(0x5942763D)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\system_M051Series.h)(0x5942763D)
+I (Libraries\StdDriver\inc\sys.h)(0x5942763D)
+I (Libraries\StdDriver\inc\clk.h)(0x5942763D)
+I (Libraries\StdDriver\inc\adc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\ebi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\fmc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\gpio.h)(0x5942763D)
+I (Libraries\StdDriver\inc\i2c.h)(0x5942763D)
+I (Libraries\StdDriver\inc\pwm.h)(0x5942763D)
+I (Libraries\StdDriver\inc\spi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\timer.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wwdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\uart.h)(0x5942763D)
+I (Libraries\StdDriver\inc\hdiv.h)(0x5942763D)
+I (Libraries\StdDriver\inc\acmp.h)(0x5942763D)
+F (Libraries\StdDriver\src\spi.c)(0x5942763D)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\spi.o --omf_browse .\build\spi.crf --depend .\build\spi.d)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\M051Series.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cm0.h)(0x5942763D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (Libraries\CMSIS\Include\core_cmInstr.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cmFunc.h)(0x5942763D)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\system_M051Series.h)(0x5942763D)
+I (Libraries\StdDriver\inc\sys.h)(0x5942763D)
+I (Libraries\StdDriver\inc\clk.h)(0x5942763D)
+I (Libraries\StdDriver\inc\adc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\ebi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\fmc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\gpio.h)(0x5942763D)
+I (Libraries\StdDriver\inc\i2c.h)(0x5942763D)
+I (Libraries\StdDriver\inc\pwm.h)(0x5942763D)
+I (Libraries\StdDriver\inc\spi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\timer.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wwdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\uart.h)(0x5942763D)
+I (Libraries\StdDriver\inc\hdiv.h)(0x5942763D)
+I (Libraries\StdDriver\inc\acmp.h)(0x5942763D)
+F (Libraries\StdDriver\src\sys.c)(0x5942763D)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\sys.o --omf_browse .\build\sys.crf --depend .\build\sys.d)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\M051Series.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cm0.h)(0x5942763D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (Libraries\CMSIS\Include\core_cmInstr.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cmFunc.h)(0x5942763D)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\system_M051Series.h)(0x5942763D)
+I (Libraries\StdDriver\inc\sys.h)(0x5942763D)
+I (Libraries\StdDriver\inc\clk.h)(0x5942763D)
+I (Libraries\StdDriver\inc\adc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\ebi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\fmc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\gpio.h)(0x5942763D)
+I (Libraries\StdDriver\inc\i2c.h)(0x5942763D)
+I (Libraries\StdDriver\inc\pwm.h)(0x5942763D)
+I (Libraries\StdDriver\inc\spi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\timer.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wwdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\uart.h)(0x5942763D)
+I (Libraries\StdDriver\inc\hdiv.h)(0x5942763D)
+I (Libraries\StdDriver\inc\acmp.h)(0x5942763D)
+F (Libraries\StdDriver\src\timer.c)(0x5942763D)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\timer.o --omf_browse .\build\timer.crf --depend .\build\timer.d)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\M051Series.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cm0.h)(0x5942763D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (Libraries\CMSIS\Include\core_cmInstr.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cmFunc.h)(0x5942763D)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\system_M051Series.h)(0x5942763D)
+I (Libraries\StdDriver\inc\sys.h)(0x5942763D)
+I (Libraries\StdDriver\inc\clk.h)(0x5942763D)
+I (Libraries\StdDriver\inc\adc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\ebi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\fmc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\gpio.h)(0x5942763D)
+I (Libraries\StdDriver\inc\i2c.h)(0x5942763D)
+I (Libraries\StdDriver\inc\pwm.h)(0x5942763D)
+I (Libraries\StdDriver\inc\spi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\timer.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wwdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\uart.h)(0x5942763D)
+I (Libraries\StdDriver\inc\hdiv.h)(0x5942763D)
+I (Libraries\StdDriver\inc\acmp.h)(0x5942763D)
+F (Libraries\StdDriver\src\uart.c)(0x5942763D)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\uart.o --omf_browse .\build\uart.crf --depend .\build\uart.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\M051Series.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cm0.h)(0x5942763D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (Libraries\CMSIS\Include\core_cmInstr.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cmFunc.h)(0x5942763D)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\system_M051Series.h)(0x5942763D)
+I (Libraries\StdDriver\inc\sys.h)(0x5942763D)
+I (Libraries\StdDriver\inc\clk.h)(0x5942763D)
+I (Libraries\StdDriver\inc\adc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\ebi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\fmc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\gpio.h)(0x5942763D)
+I (Libraries\StdDriver\inc\i2c.h)(0x5942763D)
+I (Libraries\StdDriver\inc\pwm.h)(0x5942763D)
+I (Libraries\StdDriver\inc\spi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\timer.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wwdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\uart.h)(0x5942763D)
+I (Libraries\StdDriver\inc\hdiv.h)(0x5942763D)
+I (Libraries\StdDriver\inc\acmp.h)(0x5942763D)
+F (Libraries\StdDriver\src\wdt.c)(0x5942763D)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\wdt.o --omf_browse .\build\wdt.crf --depend .\build\wdt.d)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\M051Series.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cm0.h)(0x5942763D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (Libraries\CMSIS\Include\core_cmInstr.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cmFunc.h)(0x5942763D)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\system_M051Series.h)(0x5942763D)
+I (Libraries\StdDriver\inc\sys.h)(0x5942763D)
+I (Libraries\StdDriver\inc\clk.h)(0x5942763D)
+I (Libraries\StdDriver\inc\adc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\ebi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\fmc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\gpio.h)(0x5942763D)
+I (Libraries\StdDriver\inc\i2c.h)(0x5942763D)
+I (Libraries\StdDriver\inc\pwm.h)(0x5942763D)
+I (Libraries\StdDriver\inc\spi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\timer.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wwdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\uart.h)(0x5942763D)
+I (Libraries\StdDriver\inc\hdiv.h)(0x5942763D)
+I (Libraries\StdDriver\inc\acmp.h)(0x5942763D)
+F (Libraries\StdDriver\src\wwdt.c)(0x5942763D)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\wwdt.o --omf_browse .\build\wwdt.crf --depend .\build\wwdt.d)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\M051Series.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cm0.h)(0x5942763D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (Libraries\CMSIS\Include\core_cmInstr.h)(0x5942763D)
+I (Libraries\CMSIS\Include\core_cmFunc.h)(0x5942763D)
+I (Libraries\CMSIS\Nuvoton\M051Series\Include\system_M051Series.h)(0x5942763D)
+I (Libraries\StdDriver\inc\sys.h)(0x5942763D)
+I (Libraries\StdDriver\inc\clk.h)(0x5942763D)
+I (Libraries\StdDriver\inc\adc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\ebi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\fmc.h)(0x5942763D)
+I (Libraries\StdDriver\inc\gpio.h)(0x5942763D)
+I (Libraries\StdDriver\inc\i2c.h)(0x5942763D)
+I (Libraries\StdDriver\inc\pwm.h)(0x5942763D)
+I (Libraries\StdDriver\inc\spi.h)(0x5942763D)
+I (Libraries\StdDriver\inc\timer.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\wwdt.h)(0x5942763D)
+I (Libraries\StdDriver\inc\uart.h)(0x5942763D)
+I (Libraries\StdDriver\inc\hdiv.h)(0x5942763D)
+I (Libraries\StdDriver\inc\acmp.h)(0x5942763D)
+F (Libraries\CMSIS\Nuvoton\M051Series\Source\ARM\startup_M051Series.s)(0x5942763D)(--cpu Cortex-M0 --li -g --16 --apcs=interwork --pd "__MICROLIB SETA 1"-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 521" --pd "ARMCM0 SETA 1"--list .\build\startup_m051series.lst --xref -o .\build\startup_m051series.o --depend .\build\startup_m051series.d)
+F (..\..\src\clock.c)(0x59427654)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\clock.o --omf_browse .\build\clock.crf --depend .\build\clock.d)
+I (..\..\include\rthw.h)(0x59427654)
+I (..\..\include\rtthread.h)(0x59427654)
+I (.\rtconfig.h)(0x5955A7F9)
+I (..\..\include\rtdebug.h)(0x59427654)
+I (..\..\include\rtdef.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\include\rtservice.h)(0x59427654)
+I (..\..\include\rtm.h)(0x59427654)
+F (..\..\src\device.c)(0x59427654)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\device.o --omf_browse .\build\device.crf --depend .\build\device.d)
+I (..\..\include\rtthread.h)(0x59427654)
+I (.\rtconfig.h)(0x5955A7F9)
+I (..\..\include\rtdebug.h)(0x59427654)
+I (..\..\include\rtdef.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\include\rtservice.h)(0x59427654)
+I (..\..\include\rtm.h)(0x59427654)
+F (..\..\src\idle.c)(0x59427654)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\idle.o --omf_browse .\build\idle.crf --depend .\build\idle.d)
+I (..\..\include\rthw.h)(0x59427654)
+I (..\..\include\rtthread.h)(0x59427654)
+I (.\rtconfig.h)(0x5955A7F9)
+I (..\..\include\rtdebug.h)(0x59427654)
+I (..\..\include\rtdef.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\include\rtservice.h)(0x59427654)
+I (..\..\include\rtm.h)(0x59427654)
+F (..\..\src\ipc.c)(0x59427654)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\ipc.o --omf_browse .\build\ipc.crf --depend .\build\ipc.d)
+I (..\..\include\rtthread.h)(0x59427654)
+I (.\rtconfig.h)(0x5955A7F9)
+I (..\..\include\rtdebug.h)(0x59427654)
+I (..\..\include\rtdef.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\include\rtservice.h)(0x59427654)
+I (..\..\include\rtm.h)(0x59427654)
+I (..\..\include\rthw.h)(0x59427654)
+F (..\..\src\irq.c)(0x59427654)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\irq.o --omf_browse .\build\irq.crf --depend .\build\irq.d)
+I (..\..\include\rthw.h)(0x59427654)
+I (..\..\include\rtthread.h)(0x59427654)
+I (.\rtconfig.h)(0x5955A7F9)
+I (..\..\include\rtdebug.h)(0x59427654)
+I (..\..\include\rtdef.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\include\rtservice.h)(0x59427654)
+I (..\..\include\rtm.h)(0x59427654)
+F (..\..\src\kservice.c)(0x59427654)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\kservice.o --omf_browse .\build\kservice.crf --depend .\build\kservice.d)
+I (..\..\include\rtthread.h)(0x59427654)
+I (.\rtconfig.h)(0x5955A7F9)
+I (..\..\include\rtdebug.h)(0x59427654)
+I (..\..\include\rtdef.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\include\rtservice.h)(0x59427654)
+I (..\..\include\rtm.h)(0x59427654)
+I (..\..\include\rthw.h)(0x59427654)
+F (..\..\src\mem.c)(0x59427654)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\mem.o --omf_browse .\build\mem.crf --depend .\build\mem.d)
+I (..\..\include\rthw.h)(0x59427654)
+I (..\..\include\rtthread.h)(0x59427654)
+I (.\rtconfig.h)(0x5955A7F9)
+I (..\..\include\rtdebug.h)(0x59427654)
+I (..\..\include\rtdef.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\include\rtservice.h)(0x59427654)
+I (..\..\include\rtm.h)(0x59427654)
+I (..\..\components\finsh\finsh.h)(0x59427651)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+F (..\..\src\object.c)(0x59427654)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\object.o --omf_browse .\build\object.crf --depend .\build\object.d)
+I (..\..\include\rtthread.h)(0x59427654)
+I (.\rtconfig.h)(0x5955A7F9)
+I (..\..\include\rtdebug.h)(0x59427654)
+I (..\..\include\rtdef.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\include\rtservice.h)(0x59427654)
+I (..\..\include\rtm.h)(0x59427654)
+I (..\..\include\rthw.h)(0x59427654)
+F (..\..\src\scheduler.c)(0x59427654)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\scheduler.o --omf_browse .\build\scheduler.crf --depend .\build\scheduler.d)
+I (..\..\include\rtthread.h)(0x59427654)
+I (.\rtconfig.h)(0x5955A7F9)
+I (..\..\include\rtdebug.h)(0x59427654)
+I (..\..\include\rtdef.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\include\rtservice.h)(0x59427654)
+I (..\..\include\rtm.h)(0x59427654)
+I (..\..\include\rthw.h)(0x59427654)
+F (..\..\src\thread.c)(0x59427654)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\thread.o --omf_browse .\build\thread.crf --depend .\build\thread.d)
+I (..\..\include\rtthread.h)(0x59427654)
+I (.\rtconfig.h)(0x5955A7F9)
+I (..\..\include\rtdebug.h)(0x59427654)
+I (..\..\include\rtdef.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\include\rtservice.h)(0x59427654)
+I (..\..\include\rtm.h)(0x59427654)
+I (..\..\include\rthw.h)(0x59427654)
+F (..\..\src\timer.c)(0x5954EA27)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\src_timer.o --omf_browse .\build\src_timer.crf --depend .\build\src_timer.d)
+I (..\..\include\rtthread.h)(0x59427654)
+I (.\rtconfig.h)(0x5955A7F9)
+I (..\..\include\rtdebug.h)(0x59427654)
+I (..\..\include\rtdef.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\include\rtservice.h)(0x59427654)
+I (..\..\include\rtm.h)(0x59427654)
+I (..\..\include\rthw.h)(0x59427654)
+F (..\..\libcpu\arm\cortex-m0\cpuport.c)(0x59427654)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\cpuport.o --omf_browse .\build\cpuport.crf --depend .\build\cpuport.d)
+I (..\..\include\rtthread.h)(0x59427654)
+I (.\rtconfig.h)(0x5955A7F9)
+I (..\..\include\rtdebug.h)(0x59427654)
+I (..\..\include\rtdef.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\include\rtservice.h)(0x59427654)
+I (..\..\include\rtm.h)(0x59427654)
+F (..\..\libcpu\arm\cortex-m0\context_rvds.S)(0x59427654)(--cpu Cortex-M0 --li -g --16 --apcs=interwork --pd "__MICROLIB SETA 1"-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 521" --pd "ARMCM0 SETA 1"--list .\build\context_rvds.lst --xref -o .\build\context_rvds.o --depend .\build\context_rvds.d)
+F (..\..\libcpu\arm\common\backtrace.c)(0x59427654)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\backtrace.o --omf_browse .\build\backtrace.crf --depend .\build\backtrace.d)
+I (..\..\include\rtthread.h)(0x59427654)
+I (.\rtconfig.h)(0x5955A7F9)
+I (..\..\include\rtdebug.h)(0x59427654)
+I (..\..\include\rtdef.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\include\rtservice.h)(0x59427654)
+I (..\..\include\rtm.h)(0x59427654)
+F (..\..\libcpu\arm\common\div0.c)(0x59427654)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\div0.o --omf_browse .\build\div0.crf --depend .\build\div0.d)
+F (..\..\libcpu\arm\common\showmem.c)(0x59427654)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\showmem.o --omf_browse .\build\showmem.crf --depend .\build\showmem.d)
+I (..\..\include\rtthread.h)(0x59427654)
+I (.\rtconfig.h)(0x5955A7F9)
+I (..\..\include\rtdebug.h)(0x59427654)
+I (..\..\include\rtdef.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\include\rtservice.h)(0x59427654)
+I (..\..\include\rtm.h)(0x59427654)
+F (..\..\components\drivers\serial\serial.c)(0x59427649)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\serial.o --omf_browse .\build\serial.crf --depend .\build\serial.d)
+I (..\..\include\rthw.h)(0x59427654)
+I (..\..\include\rtthread.h)(0x59427654)
+I (.\rtconfig.h)(0x5955A7F9)
+I (..\..\include\rtdebug.h)(0x59427654)
+I (..\..\include\rtdef.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\include\rtservice.h)(0x59427654)
+I (..\..\include\rtm.h)(0x59427654)
+I (..\..\components\drivers\include\rtdevice.h)(0x59427649)
+I (..\..\components\drivers\include\drivers/serial.h)(0x59427649)
+F (..\..\components\drivers\src\completion.c)(0x5942764A)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\completion.o --omf_browse .\build\completion.crf --depend .\build\completion.d)
+I (..\..\include\rthw.h)(0x59427654)
+I (..\..\include\rtthread.h)(0x59427654)
+I (.\rtconfig.h)(0x5955A7F9)
+I (..\..\include\rtdebug.h)(0x59427654)
+I (..\..\include\rtdef.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\include\rtservice.h)(0x59427654)
+I (..\..\include\rtm.h)(0x59427654)
+I (..\..\components\drivers\include\rtdevice.h)(0x59427649)
+I (..\..\components\drivers\include\drivers/serial.h)(0x59427649)
+F (..\..\components\drivers\src\dataqueue.c)(0x5942764A)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\dataqueue.o --omf_browse .\build\dataqueue.crf --depend .\build\dataqueue.d)
+I (..\..\include\rtthread.h)(0x59427654)
+I (.\rtconfig.h)(0x5955A7F9)
+I (..\..\include\rtdebug.h)(0x59427654)
+I (..\..\include\rtdef.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\include\rtservice.h)(0x59427654)
+I (..\..\include\rtm.h)(0x59427654)
+I (..\..\components\drivers\include\rtdevice.h)(0x59427649)
+I (..\..\components\drivers\include\drivers/serial.h)(0x59427649)
+I (..\..\include\rthw.h)(0x59427654)
+F (..\..\components\drivers\src\pipe.c)(0x5942764A)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\pipe.o --omf_browse .\build\pipe.crf --depend .\build\pipe.d)
+I (..\..\include\rthw.h)(0x59427654)
+I (..\..\include\rtthread.h)(0x59427654)
+I (.\rtconfig.h)(0x5955A7F9)
+I (..\..\include\rtdebug.h)(0x59427654)
+I (..\..\include\rtdef.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\include\rtservice.h)(0x59427654)
+I (..\..\include\rtm.h)(0x59427654)
+I (..\..\components\drivers\include\rtdevice.h)(0x59427649)
+I (..\..\components\drivers\include\drivers/serial.h)(0x59427649)
+F (..\..\components\drivers\src\portal.c)(0x5942764A)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\portal.o --omf_browse .\build\portal.crf --depend .\build\portal.d)
+I (..\..\include\rtthread.h)(0x59427654)
+I (.\rtconfig.h)(0x5955A7F9)
+I (..\..\include\rtdebug.h)(0x59427654)
+I (..\..\include\rtdef.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\include\rtservice.h)(0x59427654)
+I (..\..\include\rtm.h)(0x59427654)
+I (..\..\components\drivers\include\rtdevice.h)(0x59427649)
+I (..\..\components\drivers\include\drivers/serial.h)(0x59427649)
+F (..\..\components\drivers\src\ringbuffer.c)(0x5942764A)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\ringbuffer.o --omf_browse .\build\ringbuffer.crf --depend .\build\ringbuffer.d)
+I (..\..\include\rtthread.h)(0x59427654)
+I (.\rtconfig.h)(0x5955A7F9)
+I (..\..\include\rtdebug.h)(0x59427654)
+I (..\..\include\rtdef.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\include\rtservice.h)(0x59427654)
+I (..\..\include\rtm.h)(0x59427654)
+I (..\..\components\drivers\include\rtdevice.h)(0x59427649)
+I (..\..\components\drivers\include\drivers/serial.h)(0x59427649)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+F (..\..\components\drivers\src\workqueue.c)(0x5942764A)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\workqueue.o --omf_browse .\build\workqueue.crf --depend .\build\workqueue.d)
+I (..\..\include\rthw.h)(0x59427654)
+I (..\..\include\rtthread.h)(0x59427654)
+I (.\rtconfig.h)(0x5955A7F9)
+I (..\..\include\rtdebug.h)(0x59427654)
+I (..\..\include\rtdef.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\include\rtservice.h)(0x59427654)
+I (..\..\include\rtm.h)(0x59427654)
+I (..\..\components\drivers\include\rtdevice.h)(0x59427649)
+I (..\..\components\drivers\include\drivers/serial.h)(0x59427649)
+F (..\..\components\finsh\shell.c)(0x59427651)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\shell.o --omf_browse .\build\shell.crf --depend .\build\shell.d)
+I (..\..\include\rthw.h)(0x59427654)
+I (..\..\include\rtthread.h)(0x59427654)
+I (.\rtconfig.h)(0x5955A7F9)
+I (..\..\include\rtdebug.h)(0x59427654)
+I (..\..\include\rtdef.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\include\rtservice.h)(0x59427654)
+I (..\..\include\rtm.h)(0x59427654)
+I (..\..\components\finsh\finsh.h)(0x59427651)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (..\..\components\finsh\shell.h)(0x59427651)
+F (..\..\components\finsh\symbol.c)(0x59427651)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\symbol.o --omf_browse .\build\symbol.crf --depend .\build\symbol.d)
+I (..\..\components\finsh\finsh.h)(0x59427651)
+I (..\..\include\rtthread.h)(0x59427654)
+I (.\rtconfig.h)(0x5955A7F9)
+I (..\..\include\rtdebug.h)(0x59427654)
+I (..\..\include\rtdef.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\include\rtservice.h)(0x59427654)
+I (..\..\include\rtm.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+F (..\..\components\finsh\cmd.c)(0x59427651)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\cmd.o --omf_browse .\build\cmd.crf --depend .\build\cmd.d)
+I (..\..\include\rtthread.h)(0x59427654)
+I (.\rtconfig.h)(0x5955A7F9)
+I (..\..\include\rtdebug.h)(0x59427654)
+I (..\..\include\rtdef.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\include\rtservice.h)(0x59427654)
+I (..\..\include\rtm.h)(0x59427654)
+I (..\..\components\finsh\finsh.h)(0x59427651)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+F (..\..\components\finsh\finsh_compiler.c)(0x59427651)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\finsh_compiler.o --omf_browse .\build\finsh_compiler.crf --depend .\build\finsh_compiler.d)
+I (..\..\components\finsh\finsh.h)(0x59427651)
+I (..\..\include\rtthread.h)(0x59427654)
+I (.\rtconfig.h)(0x5955A7F9)
+I (..\..\include\rtdebug.h)(0x59427654)
+I (..\..\include\rtdef.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\include\rtservice.h)(0x59427654)
+I (..\..\include\rtm.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (..\..\components\finsh\finsh_node.h)(0x59427651)
+I (..\..\components\finsh\finsh_error.h)(0x59427651)
+I (..\..\components\finsh\finsh_var.h)(0x59427651)
+I (..\..\components\finsh\finsh_ops.h)(0x59427651)
+I (..\..\components\finsh\finsh_vm.h)(0x59427651)
+F (..\..\components\finsh\finsh_error.c)(0x59427651)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\finsh_error.o --omf_browse .\build\finsh_error.crf --depend .\build\finsh_error.d)
+I (..\..\components\finsh\finsh_error.h)(0x59427651)
+I (..\..\components\finsh\finsh.h)(0x59427651)
+I (..\..\include\rtthread.h)(0x59427654)
+I (.\rtconfig.h)(0x5955A7F9)
+I (..\..\include\rtdebug.h)(0x59427654)
+I (..\..\include\rtdef.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\include\rtservice.h)(0x59427654)
+I (..\..\include\rtm.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+F (..\..\components\finsh\finsh_heap.c)(0x59427651)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\finsh_heap.o --omf_browse .\build\finsh_heap.crf --depend .\build\finsh_heap.d)
+I (..\..\components\finsh\finsh.h)(0x59427651)
+I (..\..\include\rtthread.h)(0x59427654)
+I (.\rtconfig.h)(0x5955A7F9)
+I (..\..\include\rtdebug.h)(0x59427654)
+I (..\..\include\rtdef.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\include\rtservice.h)(0x59427654)
+I (..\..\include\rtm.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (..\..\components\finsh\finsh_var.h)(0x59427651)
+F (..\..\components\finsh\finsh_init.c)(0x59427651)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\finsh_init.o --omf_browse .\build\finsh_init.crf --depend .\build\finsh_init.d)
+I (..\..\components\finsh\finsh.h)(0x59427651)
+I (..\..\include\rtthread.h)(0x59427654)
+I (.\rtconfig.h)(0x5955A7F9)
+I (..\..\include\rtdebug.h)(0x59427654)
+I (..\..\include\rtdef.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\include\rtservice.h)(0x59427654)
+I (..\..\include\rtm.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (..\..\components\finsh\finsh_node.h)(0x59427651)
+I (..\..\components\finsh\finsh_vm.h)(0x59427651)
+I (..\..\components\finsh\finsh_var.h)(0x59427651)
+I (..\..\components\finsh\finsh_parser.h)(0x59427651)
+I (..\..\components\finsh\finsh_error.h)(0x59427651)
+I (..\..\components\finsh\finsh_heap.h)(0x59427651)
+F (..\..\components\finsh\finsh_node.c)(0x59427651)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\finsh_node.o --omf_browse .\build\finsh_node.crf --depend .\build\finsh_node.d)
+I (..\..\components\finsh\finsh.h)(0x59427651)
+I (..\..\include\rtthread.h)(0x59427654)
+I (.\rtconfig.h)(0x5955A7F9)
+I (..\..\include\rtdebug.h)(0x59427654)
+I (..\..\include\rtdef.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\include\rtservice.h)(0x59427654)
+I (..\..\include\rtm.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (..\..\components\finsh\finsh_node.h)(0x59427651)
+I (..\..\components\finsh\finsh_error.h)(0x59427651)
+I (..\..\components\finsh\finsh_var.h)(0x59427651)
+I (..\..\components\finsh\finsh_heap.h)(0x59427651)
+F (..\..\components\finsh\finsh_ops.c)(0x59427651)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\finsh_ops.o --omf_browse .\build\finsh_ops.crf --depend .\build\finsh_ops.d)
+I (..\..\components\finsh\finsh_ops.h)(0x59427651)
+I (..\..\components\finsh\finsh_vm.h)(0x59427651)
+I (..\..\components\finsh\finsh.h)(0x59427651)
+I (..\..\include\rtthread.h)(0x59427654)
+I (.\rtconfig.h)(0x5955A7F9)
+I (..\..\include\rtdebug.h)(0x59427654)
+I (..\..\include\rtdef.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\include\rtservice.h)(0x59427654)
+I (..\..\include\rtm.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (..\..\components\finsh\finsh_var.h)(0x59427651)
+F (..\..\components\finsh\finsh_parser.c)(0x59427651)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\finsh_parser.o --omf_browse .\build\finsh_parser.crf --depend .\build\finsh_parser.d)
+I (..\..\components\finsh\finsh.h)(0x59427651)
+I (..\..\include\rtthread.h)(0x59427654)
+I (.\rtconfig.h)(0x5955A7F9)
+I (..\..\include\rtdebug.h)(0x59427654)
+I (..\..\include\rtdef.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\include\rtservice.h)(0x59427654)
+I (..\..\include\rtm.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (..\..\components\finsh\finsh_token.h)(0x59427651)
+I (..\..\components\finsh\finsh_node.h)(0x59427651)
+I (..\..\components\finsh\finsh_error.h)(0x59427651)
+I (..\..\components\finsh\finsh_parser.h)(0x59427651)
+I (..\..\components\finsh\finsh_var.h)(0x59427651)
+F (..\..\components\finsh\finsh_var.c)(0x59427651)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\finsh_var.o --omf_browse .\build\finsh_var.crf --depend .\build\finsh_var.d)
+I (..\..\components\finsh\finsh.h)(0x59427651)
+I (..\..\include\rtthread.h)(0x59427654)
+I (.\rtconfig.h)(0x5955A7F9)
+I (..\..\include\rtdebug.h)(0x59427654)
+I (..\..\include\rtdef.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\include\rtservice.h)(0x59427654)
+I (..\..\include\rtm.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (..\..\components\finsh\finsh_var.h)(0x59427651)
+F (..\..\components\finsh\finsh_vm.c)(0x59427651)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\finsh_vm.o --omf_browse .\build\finsh_vm.crf --depend .\build\finsh_vm.d)
+I (..\..\components\finsh\finsh.h)(0x59427651)
+I (..\..\include\rtthread.h)(0x59427654)
+I (.\rtconfig.h)(0x5955A7F9)
+I (..\..\include\rtdebug.h)(0x59427654)
+I (..\..\include\rtdef.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\include\rtservice.h)(0x59427654)
+I (..\..\include\rtm.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (..\..\components\finsh\finsh_vm.h)(0x59427651)
+I (..\..\components\finsh\finsh_var.h)(0x59427651)
+I (..\..\components\finsh\finsh_ops.h)(0x59427651)
+F (..\..\components\finsh\finsh_token.c)(0x59427651)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\finsh_token.o --omf_browse .\build\finsh_token.crf --depend .\build\finsh_token.d)
+I (..\..\components\finsh\finsh.h)(0x59427651)
+I (..\..\include\rtthread.h)(0x59427654)
+I (.\rtconfig.h)(0x5955A7F9)
+I (..\..\include\rtdebug.h)(0x59427654)
+I (..\..\include\rtdef.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\include\rtservice.h)(0x59427654)
+I (..\..\include\rtm.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (..\..\components\finsh\finsh_token.h)(0x59427651)
+I (..\..\components\finsh\finsh_error.h)(0x59427651)
+F (..\..\src\components.c)(0x59427654)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I . -I ..\..\components\drivers\include -I ..\..\components\finsh -I ..\..\components\init -I ..\..\include -I ..\..\libcpu\arm\common -I ..\..\libcpu\arm\cortex-m0 -I Libraries\CMSIS\Include -I Libraries\CMSIS\Nuvoton\M051Series\Include -I Libraries\StdDriver\inc -I applications -I drivers-IE:\cynoware\RTthread\rt-threa\bsp\nuvoton_m05x\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DARMCM0 -DINIT_SYSCLK_AT_BOOTING-o .\build\components.o --omf_browse .\build\components.crf --depend .\build\components.d)
+I (..\..\include\rthw.h)(0x59427654)
+I (..\..\include\rtthread.h)(0x59427654)
+I (.\rtconfig.h)(0x5955A7F9)
+I (..\..\include\rtdebug.h)(0x59427654)
+I (..\..\include\rtdef.h)(0x59427654)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+I (..\..\include\rtservice.h)(0x59427654)
+I (..\..\include\rtm.h)(0x59427654)

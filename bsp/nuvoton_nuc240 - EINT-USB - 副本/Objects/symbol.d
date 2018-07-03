@@ -1,0 +1,13 @@
+.\objects\symbol.o: ..\..\components\finsh\symbol.c
+.\objects\symbol.o: ..\..\components\finsh\finsh.h
+.\objects\symbol.o: ..\..\include\rtthread.h
+.\objects\symbol.o: ..\nuvoton_nuc240\rtconfig.h
+.\objects\symbol.o: ..\..\include\rtdebug.h
+.\objects\symbol.o: ..\..\include\rtdef.h
+.\objects\symbol.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\symbol.o: ..\..\include\rtservice.h
+.\objects\symbol.o: ..\..\include\rtm.h
+.\objects\symbol.o: ..\..\include\rtthread.h
+.\objects\symbol.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\symbol.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\symbol.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

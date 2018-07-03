@@ -1,0 +1,16 @@
+.\objects\finsh_vm.o: ..\..\components\finsh\finsh_vm.c
+.\objects\finsh_vm.o: ..\..\components\finsh\finsh.h
+.\objects\finsh_vm.o: ..\..\include\rtthread.h
+.\objects\finsh_vm.o: ..\nuvoton_nuc240\rtconfig.h
+.\objects\finsh_vm.o: ..\..\include\rtdebug.h
+.\objects\finsh_vm.o: ..\..\include\rtdef.h
+.\objects\finsh_vm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\finsh_vm.o: ..\..\include\rtservice.h
+.\objects\finsh_vm.o: ..\..\include\rtm.h
+.\objects\finsh_vm.o: ..\..\include\rtthread.h
+.\objects\finsh_vm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\finsh_vm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\finsh_vm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\finsh_vm.o: ..\..\components\finsh\finsh_vm.h
+.\objects\finsh_vm.o: ..\..\components\finsh\finsh_var.h
+.\objects\finsh_vm.o: ..\..\components\finsh\finsh_ops.h

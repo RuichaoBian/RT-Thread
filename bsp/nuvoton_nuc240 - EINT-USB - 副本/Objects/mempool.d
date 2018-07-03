@@ -1,0 +1,10 @@
+.\objects\mempool.o: ..\..\src\mempool.c
+.\objects\mempool.o: ..\..\include\rthw.h
+.\objects\mempool.o: ..\..\include\rtthread.h
+.\objects\mempool.o: ..\nuvoton_nuc240\rtconfig.h
+.\objects\mempool.o: ..\..\include\rtdebug.h
+.\objects\mempool.o: ..\..\include\rtdef.h
+.\objects\mempool.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\mempool.o: ..\..\include\rtservice.h
+.\objects\mempool.o: ..\..\include\rtm.h
+.\objects\mempool.o: ..\..\include\rtthread.h
